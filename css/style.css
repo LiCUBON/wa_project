@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, Helvetica, sans-serif
+    
+}
+.titleTravel{
+    margin: 0;
+    position: absolute;
+    height: 118px;
+    width: 1282px;
+    left: 5.75%;
+    right: 27.82%;
+    top: 280px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 118px;
+    text-align: center;
+    color: #fff;
+}
+
+.header{
+    background-image:linear-gradient(180deg, #80EBE3 0%, rgba(67, 207, 243, 0.5) 100%),url("../img/Background.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: 1105px;
+}
+
+.nav{
+    position: absolute;
+    top: 43px;
+    left: 203px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu{
+    position: relative;
+    left: 367px;
+}
+.menu a{
+    margin-left: 150px;
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+	border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 6px;
+    width: 6px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+	
+	
+}
+.categores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    width: 850px;
+    height: 74px;
+    left: 245px;
+    top: 455px;
+    border-radius: 10px;
+}
+.BTNcategores{
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    
+}
+.BTNcategores:focus .departures{
+    fill: #43CFF3;
+}
+.BTNcategores:focus .hotels{
+    fill: #43CFF3;
+}.BTNcategores:focus .experiences{
+    fill: #43CFF3;
+}
+.searcher{
+    display: flex;
+    position: relative;
+    left: 245px;
+    top: 500px;
+    justify-content: space-between;
+    width: 1420px;
+    
+}
+.selectTravel{
+    background-color: #fff;
+    height: 90px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+#continue{
+    height: 90px;
+    width: 400px;
+    border-radius: 10px;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: linear-gradient(#F1C933, #FF8E00);
+    color: #1A4762;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 27px;
+}
