@@ -52,29 +52,27 @@
             </div>
             <div class="searcher">
                 <div class="selectTravel">
-                    <div class="selectFrom">
+                    <div id="selectFrom">
                         <p>From:</p>
-                        <select name="" id="">
-                                <option value="spainSevilla">Spain - Sevilla(SVQ)</option>
-                                <option value="spainValue1">Spain - Value1</option>
-                                <option value="spainValue2">Spain - Value2</option>
-                        </select>
+                       <input type="text" value="Spain - Sevilla(SVQ)" list="travelcity">
                     </div>
-                    <div class="arrowReverse">
+                    <div class="arrowReverse" >
                         <img class="separator_" src="img/Separator 1.png" alt="Separator">
-                        <img  class="reverse" src="img/reverse.png" alt="Reverse">
+                        <img  class="reverse" id="reverser" src="img/reverse.png" alt="Reverse">
                         <img class="separator_" src="img/Separator 1.png" alt="Separator">
                     </div>
                     <div class="selectTo">
                         <p>To:</p>
-                    <select name="" id="">
-                        <option value="spainBarcelona">Spain - Barcelona(BCN)</option>
-                        <option value="spainValue1">Spain - Value1</option>
-                        <option value="spainValue2">Spain - Value2</option>
-                    </select>
+                        <input type="text" value="Spain - Barcelona(BCN)" list="travelcity">
+                        <datalist id="travelcity">
+                            <option>Spain - Sevilla(SVQ)</option>
+                            <option>Spain - Barcelona(BCN)</option>
+                            <option>Spain - Value1</option>
+                            <option>Spain - Value2</option>
+                            <option>Spain - Value3</option>
                     </div>
                         <div class="calendar">
-                            <img src="img/Separator 1.png" alt="Separator">
+                            <img id="" src="img/Separator 1.png" alt="Separator">
                         <input class="" type="date" name="" id="">
                     </div>
                 </div>
@@ -83,7 +81,9 @@
             <span class="down"></span>
            
         </div>
-        <div class="section_1">tes</div>
-        
+        <div class="section_1">tes
+          
+        </div>
+        <script src="js/script.js" async></script>
 </body>  
 </html>

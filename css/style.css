@@ -112,6 +112,7 @@ body{
     height: 90px;
     width: 1000px;
     border-radius: 10px;
+    
 }
 
 #continue{
@@ -144,4 +145,28 @@ body{
 }
 .reverse:hover{
     transform: rotate(180deg);
+}
+section{
+    width: 10px;
+}
+
+#selectFrom, .selectTo{
+    width: 250px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.selectTravel input{
+    color: #555555;
+    font-size: 20px;
+    font-weight: 600;
+    height: 25px;
+    border: none;
+   
+}
+
+
+
+.selectTravel p{
+    margin: 0;
 }
