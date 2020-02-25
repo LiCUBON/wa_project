@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>myProject</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-        
-        <div class="header">
-            <div class="nav">
-                <img src="img/LOGO.png" alt="logo">
+    <div class="header">
+        <div class="nav">
+            <img src="img/LOGO.png" alt="logo">
                 <div class="menu">
-                <a href="#1">Travel<i class="arrow"></i></a>
-                <a href="#2">Flying Info<i class="arrow"></i></a>
-                <a href="#3" class="BTNnav">Register</a>
-                <a href="#4" class="BTNnav">Flying Cloub</a>
+                    <a href="#1">Travel<i class="arrow"></i></a>
+                    <a href="#2">Flying Info<i class="arrow"></i></a>
+                    <a href="#3" class="BTNnav">Register</a>
+                    <a href="#4" class="BTNnav">Flying Cloub</a>
                 </div>
-            </div>
+        </div>
             <h1 class="titleTravel">Let’s make your next stop:</h1>
             <div class="categores">
                <button class="BTNcategores">
@@ -63,26 +66,29 @@
                     </div>
                     <div class="selectTo">
                         <p>To:</p>
-                        <input type="text" value="Spain - Barcelona(BCN)" list="travelcity">
-                        <datalist id="travelcity">
-                            <option>Spain - Sevilla(SVQ)</option>
-                            <option>Spain - Barcelona(BCN)</option>
-                            <option>Spain - Value1</option>
-                            <option>Spain - Value2</option>
-                            <option>Spain - Value3</option>
+                            <input type="text" value="Spain - Barcelona(BCN)" list="travelcity">
+                                <datalist id="travelcity">
+                                    <option>Spain - Sevilla(SVQ)</option>
+                                    <option>Spain - Barcelona(BCN)</option>
+                                    <option>Spain - Value1</option>
+                                    <option>Spain - Value2</option>
+                                    <option>Spain - Value3</option>
                     </div>
+                    <img id="" src="img/Separator 1.png" alt="Separator">
                         <div class="calendar">
-                            <img id="" src="img/Separator 1.png" alt="Separator">
-                        <input class="" type="date" name="" id="">
-                    </div>
+                            <input type="text" id="datepicker">
+                            <label for="datepicker"></label>
+                        </div>
                 </div>
                 <button id="continue">Continue</button>
+                <div class="checkbox">
+                    <input class="checkbox_input" type="checkbox" id="checkbox_1">
+                    <label for="checkbox_1" class="checkbox_label">One Way Ticket</label>
+                </div>
             </div>
-            <span class="down"></span>
-           
+            <a class="arrowDown" href="#section_1"></a>
         </div>
-        <div class="section_1">tes
-          
+        <div id="section_1" class="section_1">tes
         </div>
         <script src="js/script.js" async></script>
 </body>  

@@ -4,7 +4,8 @@ document.getElementById('reverser').addEventListener('click', ()=>{
     let value3 = value.value;
     value.value = value2.value
     value2.value = value3
-    
-    
-   
 })
+
+$( function() {
+    $( "#datepicker" ).datepicker();
+  } );
