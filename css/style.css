@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: Cambo;
     
 }
 .titleTravel {
@@ -26,7 +26,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    width: inherit;
     height: 1080px;
 }
 
@@ -137,16 +136,15 @@ body {
     
 }
 
-#continue {
+.BTNcta {
     height: 90px;
     width: 400px;
     border-radius: 10px;
     outline: none; /* Для синий ободки */
     border: 0;
-    background: linear-gradient(#F1C933, #FF8E00);
+    background: linear-gradient(191.78deg, #F1C933 81.52%, #FF8E00 127.11%);
     color: #1A4762;
     font-style: normal;
-    font-weight: bold;
     font-size: 40px;
     line-height: 27px;
     user-select: none;
@@ -183,6 +181,8 @@ section {
     font-weight: 600;
     height: 25px;
     border: none;
+    
+
 }
 
 .selectTravel p {
@@ -276,5 +276,193 @@ section {
     background: url("/img/Down.png");
     width: 69px;
     height: 40px;
+    transition: 3s;
+    
+}
+
+.section_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1276px;
+}
+
+.section_1_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1522px;
+    height: 1028px;
+}
+.section_1_2 button {
+    position: relative;
+    top: 134px;
+    
+}
+
+.section_1_2_title {
+    height: 100px;
+    width: 1036px;
+    font-size: 89px;
+    line-height: 100px;
+    text-align: center;
+    color: #555555;
+}
+
+.section_1_2_line {
+    margin: 30px 0;
+    background-color: #43CFF3;
+    height: 6px;
+    width: 15%;
+    border-radius: 8px;
+}
+
+.section_1_2_subtitle {
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    width: 580px;
+    color: #555555;
+
+}
+
+.slidercountry {
+    display: flex;
+    justify-content: space-between;
+    height: 483px;
+    width: 1522px;
+}
+
+.slidercountry div {
+    background-color: #04EDCC;
+    height: 483px;
+    width: 478px;
+    
+}
+
+.humanWaterfall {
+    margin: 155px 0;
+    background: linear-gradient(182.43deg, #43CFF3 7.02%, #04EDCC 246.31%), url("/img/Waterfall.jpg") no-repeat 50% 50%;
+    background-blend-mode: multiply;
+    height: 453px;
+    background-size: cover;
+
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-around;
+    height: 850px;
+    width: inherit;
+
+    
+    
+}
+
+.section_2 div {
+    width: 726px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_2 div button{
+    margin-top: 78px;
+}
+
+.styleinfous {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 571px;
+    background: linear-gradient(182.43deg, #43CFF3 7.02%, #04EDCC 246.31%), url("/img/trustus.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    border: 1px solid #979797;
+    
+
+}
+
+.section_trust_line{
+    height: 10px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.trust_title_text {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 74px;
+    margin: 37px;
+}
+
+.section_trust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infous {
+    position: relative;
+    width: inherit;
+    display: flex;
+    justify-content: space-around
+}
+
+.section_footer {
+    height: 782px;
+}
+.section_footer_2 {
+    position: relative;
+    top: 140px;
+    background-color: #F3F3F3;
+    height: 643px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listmenu ul{
+    list-style-image: url("/img/sape.png");
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+}
+li a {
+    text-decoration: none;
+    color: #555555;
+    display: block;
+    margin: 30px;
+}
+
+.linehoritontal {
+    background-color: #43CFF3;
+    height: 419px;
+    width: 2px;
+}
+
+.contacts {
+    
+}
+
+.contacts span {
+    display: block;
+}
+
+.tilecontact {
+    font-size: 32px;
+    color: #109FC4;
+}
+
+.subtitlecontact {
     
 }
