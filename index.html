@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css" media="all and (max-width:900px)">
     <title>myProject</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
@@ -18,8 +19,24 @@
         <div class="nav">
             <img src="img/LOGO.png" alt="logo">
                 <div class="menu">
-                    <a href="#1">Travel<i class="arrow"></i></a>
-                    <a href="#2">Flying Info<i class="arrow"></i></a>
+                    <div class="dropDM">
+                    <span>Travel<i class="arrow"></i></span>
+                    <div class="selectProff">
+                        <a href="#1">Flight</a>
+                        <a href="#2">Sail</a>
+                        <a href="#2">Test3</a>
+                        <a href="#3">Test4</a>
+                    </div>
+                    </div>
+                    <div class="dropDM">
+                    <span>Flying Info<i class="arrow"></i></span>
+                    <div class="selectProff">
+                        <a href="#4">Test1</a>
+                        <a href="#5">Test2</a>
+                        <a href="#6">Test3</a>
+                        <a href="#7">Test4</a>
+                    </div>
+                    </div>
                     <a href="#3" class="BTNnav">Register</a>
                     <a href="#4" class="BTNnav">Flying Cloub</a>
                 </div>
@@ -109,7 +126,10 @@
                 <button class="BTNcta">More destinations</button>
             </div>
         </div>
-        <div class="humanWaterfall"></div>
+        <div class="humanWaterfall">
+           <div>Look for the best
+            hotels and experiences!</div>
+        </div>
             <div class="section_2">
                 <div>
                 <img src="img/Hotels.jpg" alt="">
@@ -161,11 +181,29 @@
                             <span class="input input--nariko">
                                 <input class="input__field input__field--nariko" type="text" id="input-20">
                                 <label class="input__label input__label--nariko" for="input-20">
-                                  <span class="input__label-content input__label-content--nariko">email</span>
+                                  <span class="input__label-content input__label-content--nariko">e-mail</span>
                                 </label>
                                   </span>
+                                  <button class="BTNcta BTNSuscribe">Suscribe</button>
+                                  <div class="badges">
+                                      <a href="#">
+                                          <img src="img/google-play-badge.jpg" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/Download_on_the_App_Store_Badge.jpg" alt="">
+                                    </a>
+                                </div>
                          </div>
-                 </div>
+                    </div>
+                </div>
+                <div class="end_footer_menu">
+                    <a href="#">2018 Jmillo</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Supplementary service rates</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Website terms of use</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Cookie policy</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Privacy Policy</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Accessibility</a><img src="/img/Separator 1.png" alt="">
+                    <a href="#">Site map  </a>
                 </div>
         <script src="js/script.js" async></script>
     </div>

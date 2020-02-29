@@ -49,13 +49,45 @@ body {
     width: inherit;
     
 }
-.menu a {
+.menu a, span{
     text-decoration: none;
     color: #fff;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
+}
+
+.dropDM
+{
+    width: 190px;
+    height: 35px;
+}
+.selectProff {
+    display: none;
+    background: #fff;
+    width: 153px;
+    box-shadow: 0px 0px 11px 0px;
+    border-radius: 8px;
+    
+}
+
+.selectProff > a
+{
+    padding: 5px;
+    text-indent: 14px;
+    text-decoration: none;
+    color: rgba(107, 107, 107, 0.774);
+    display: block;
+}
+.selectProff > a:hover
+{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+.dropDM:hover .selectProff
+{
+   display: block;
 }
 
 .BTNnav {
@@ -345,11 +377,26 @@ section {
 }
 
 .humanWaterfall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 155px 0;
     background: linear-gradient(182.43deg, #43CFF3 7.02%, #04EDCC 246.31%), url("/img/Waterfall.jpg") no-repeat 50% 50%;
     background-blend-mode: multiply;
     height: 453px;
     background-size: cover;
+
+}
+
+.humanWaterfall div {
+    width: 925px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 89px;
+    line-height: 100px;
+    text-align: center;
+
+color: #FFFFFF;
 
 }
 
@@ -427,7 +474,7 @@ section {
     height: 643px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #555555;
 }
 
@@ -438,11 +485,15 @@ section {
     font-size: 32px;
     line-height: 36px;
 }
+
 li a {
     text-decoration: none;
     color: #555555;
     display: block;
     margin: 30px;
+}
+li a:hover {
+    color: #43CFF3;
 }
 
 .linehoritontal {
@@ -471,10 +522,19 @@ li a {
 }
 
 .subtitlecontact {
+    color: #555555;
     font-size: 32px;
     font-weight: 500;
 }
 
+.formemal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+    /* INPUT */
 
 .input {
     position: relative;
@@ -497,6 +557,7 @@ li a {
     background: #f0f0f0;
     color: #aaa;
     font-weight: 400;
+    font-size: 15pt;
     box-sizing: border-box;
     -webkit-appearance: none; /* for box shadows to show on iOS */
 }
@@ -512,7 +573,7 @@ li a {
     width: 40%;
     color: #696969;
     font-weight: bold;
-    font-size: 70.25%;
+    font-size: 90%;
   box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -529,24 +590,13 @@ li a {
     display: block;
     padding: 1.6em 0;
     width: 100%;
-    color: #04EDCC;
-}
-
-.graphic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    fill: none;
-}
-
-.icon {
-    color: #ddd;
-    font-size: 150%;
+    color: #109FC4;
+    font-size: 12pt;
 }
 
 .input--nariko {
     overflow: hidden;
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 .input__field--nariko {
@@ -576,7 +626,7 @@ li a {
     top: 100%;
     left: 0;
     background: #ffffff;
-    border-top: 4px solid #9B9F9F;
+    border-top: 4px solid #555555;
     -webkit-transform: translate3d(0, -3px, 0);
     transform: translate3d(0, -3px, 0);
     -webkit-transition: -webkit-transform 0.4s;
@@ -616,4 +666,41 @@ li a {
     color: #6B6E6E;
     -webkit-transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
     transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
+}
+
+.BTNSuscribe {
+    background: linear-gradient(181.87deg, #43CFF3 7.02%, #04EDCC 246.31%);
+    color: #fff;
+    height: 48px;
+    width: 240px;
+    font-size: 20px;
+    
+}
+
+.badges {
+    margin-top: 45px;
+    display: flex;
+    width: 430px;
+    justify-content: space-around;
+}
+
+.end_footer_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 121px;
+    background-color: #ccc;
+}
+
+.end_footer_menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: #555555;
+    font-size: 23px;
+    line-height: 26px;
+    
+
+}
+.end_footer_menu a:hover {
+    color: #fff;
 }
