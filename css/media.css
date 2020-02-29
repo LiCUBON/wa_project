@@ -1,3 +1,121 @@
-body {
+
+.test {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+}
+.menu {
+        left: 120px;
+}
+#logo {
+    margin-left: 20px;
+    height: 51px;
+    width: 81px;
+}
+.arrowDown {
+    position: absolute;
+    top: 990px;
+}
+
+.titleTravel, .section_1_2 {
+    position: static;
+    font-size: 65px;
+    width: max-content;
+    top: 150px;
+    right: -50%;
+    transform: translate(-50% -50%);
+}
+
+.categores {
+    position: static;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    top: 270px;
     
+}
+.selectTravel, .section_1_2_title {
+    width: 670px;
+    height: max-content;
+}
+
+.searcher {
+    position: static;
+    width: max-content;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searcher button {
+    margin-top: 15px;
+}
+.checkbox {
+ top: 600px;   
+}
+
+.checkbox_label  {
+   
+    white-space: nowrap;
+    
+}
+
+.slidercountry {
+    width: 750px;
+    height: 183px;
+}
+
+.slidercountry img {
+    width: 178px;
+    height: 183px;
+    
+}
+
+.section_2 img {
+    width: 378px;
+    height: 283px;
+}
+
+.styleinfous div{
+    font-size: 32px;
+
+}
+
+.infous img {
+    height: 71px;
+    margin-bottom: 40px;
+}
+
+.listmenu a {
+    margin: 10px;
+}
+
+.listmenu li, .tilecontact {
+    font-size: 22px;
+    
+}
+
+.contacts {
+     margin-left: 48px;
+     
+}
+
+.contacts span {
+    font-size: 22px;
+    margin: 0;
+}
+
+
+
+.BTNcta {
+    width: 300px;
+    font-size: 30px;
+}
+
+.end_footer_menu a {
+    font-size: 16px;
 }
