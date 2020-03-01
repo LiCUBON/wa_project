@@ -1,0 +1,19 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxrives/wa_project.git"
+  },
+  "author": "maxrives",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxrives/wa_project/issues"
+  },
+  "homepage": "https://github.com/maxrives/wa_project#readme"
+}

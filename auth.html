@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма для авторизации</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/auth.css" type="text/css">
+</head>
+<body>
+<div class="dws-wrapper">
+	<div class="dws-form">
+		<input type="radio" id="tab-1" name="tabs" >
+		<label class="tab" for="tab-1" title="Вкладка 1">Авторизация</label>
+
+		<input type="radio" name="tabs" id="tab-2" checked>
+		<label class="tab" for="tab-2" title="Вкладка 2">Регистрация</label>
+
+	
+
+		<form id="form-1" class="tab-form" onsubmit="valid(this)">
+			<div class="box-input">
+				<input id="inpLogin" class="input" type="text" value="" required>
+				<label>Введите E-mail</label>
+			</div>
+            <script>
+            </script>
+			<div class="box-input">
+				<input id="inputpass" class="input" type="password" required>
+				<label>Введите пароль</label>
+			</div>
+
+			<a href="#" id="buttAuth" class="button">Войти</a>
+			<ul class="social">
+				<li><a href="https://facebook.com/"><div><i class="fa fa-facebook"></i></div></a></li>
+				<li><a href="https://twitter.com/"><div><i class="fa fa-twitter"></i></div></a></li>
+				<li><a href="https://www.instagram.com"><div><i class="fa fa-instagram"></i></div></a></li>
+				<li><a href="https://www.youtube.com/"><div><i class="fa fa-youtube"></i></div></a></li>
+			</ul>
+			<a href="#">Я забыл свой E-mail или пароль</a>
+		</form>
+
+		<form id="form-2" class="tab-form">
+			<input class="input"id="inp_registr" type="email" placeholder="Введите E-mail адрес">
+			<input class="input" type="text" id="inp_name"  placeholder="Введите свое имя">
+			<input class="input" id="input_pass" type="password"  placeholder="Введите пароль">
+			<a href="#" id="buttReg" class="button">Регистрация</a>
+
+			<div class="recover">
+				<input type="checkbox" id="ckbox">
+				<label for="ckbox">Ознакомлен(-а) и принимаю <a href="#">условия регистрации</a></label>
+			</div>
+		</form>
+
+	</div>
+</div>
+<script src="js/fetch.js"></script>
+</body>
+</html>
