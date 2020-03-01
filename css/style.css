@@ -4,6 +4,12 @@ body {
     font-family: Cambo;
     
 }
+
+button:hover {
+    box-shadow: inset -1px -1px 16px 0px #000;
+    cursor: pointer;
+    box-shadow: black;
+}
 .titleTravel {
     margin: 0;
     position: absolute;
